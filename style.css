@@ -3,28 +3,48 @@
 }
 
 body{
-    background:var(--BGgradient);
+    background:url(images/bg/sky.gif);
     background-color: rgb(93, 195, 226);
-    background-size:cover;
-    background-repeat:no-repeat;
-padding:10spx;
+    background-size:100px;
+    padding:30px;
 }
 
 #title{
-    font-family:"Yu Gothic"
+    font-family:"Yu Gothic";
+    border: 4px outset #AAA;
+    background: #AAA;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000 
 }
 
-#wrapper{
+#wrapper-me{
+    max-width:720px;
+    margin:auto;
+}
+
+#wrapper-myson{
     background: #fff;
     border: 4px inset #AAAAAA /*screaming funnies*/; 
+    padding:10px;
+    padding-bottom:40px;
 }
 
 #overlay{
     border: 20px groove rgb(105, 59, 46);
-    width:calc(100vw - 20px);
-    height:calc(100vh - 20px);
+    width:calc(100vw - 40px);
+    height:calc(100vh - 40px);
     position:fixed;
     left:0;
     top:0;
 
+}
+.charbutton{
+    width:120px;
+    height:30px;
+    border:2px solid #AAAAAA;
+    flex: 1;
+}
+#characters{
+    display:flex;
+    justify-content: space-around;
 }
