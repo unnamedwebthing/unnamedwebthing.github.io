@@ -1,3 +1,30 @@
+:root{
+    --BGgradient:linear-gradient(180deg,rgb(40, 70, 99) 0%, rgb(93, 195, 226) 100%);
+}
+
 body{
-    
+    background:var(--BGgradient);
+    background-color: rgb(93, 195, 226);
+    background-size:cover;
+    background-repeat:no-repeat;
+padding:10spx;
+}
+
+#title{
+    font-family:"Yu Gothic"
+}
+
+#wrapper{
+    background: #fff;
+    border: 4px inset #AAAAAA /*screaming funnies*/; 
+}
+
+#overlay{
+    border: 20px groove rgb(105, 59, 46);
+    width:calc(100vw - 20px);
+    height:calc(100vh - 20px);
+    position:fixed;
+    left:0;
+    top:0;
+
 }
